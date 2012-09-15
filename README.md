@@ -13,33 +13,36 @@ For example, if you want to download images from ACCIDENTAL CHINESE HIPSTERS exe
 
 yatir is written in Python and thus requires Python to be installed.
 
-1. Clone yatir from Github
+### 1. Clone yatir from Github
 
   git clone https://github.com/hypebeast/yatir.git yatir
 
-2. Start yatir
+### 2. Start yatir
   $ ./yatir
 
 ## Usage
 
-1. Configure yatir
+### 1. Configure yatir
 
 To configure yatir edit the config.ini file. This file located in '~/.yatir'.
 
-2. Create the blogs file
+### 2. Create the blogs file
 
 By default yatir reads the Tumblr blogs from blogs.txt located in the same directory as yatir is executed. Each line contains one blog name. For example:
 
 ```text
 monk3y.tumblr.com
+playwithfire.tumblr.com
+jessica-fletcher.tumblr.com
+thingsthatexciteme.tumblr.com
 ```
 
-3. Start yatir
+### 3. Start downloading images
 
   $ ./yatir
 
+### Command line arguments
 
 To see all available command line arguments, execute:
 
   $ ./yatir -h
-
