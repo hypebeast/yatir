@@ -191,25 +191,6 @@ def parse_blogs_file(filename):
   return blogs
 
 
-def print_sites():
-  pass
-
-
-def usage():
-    print "tumblr_downloader.py {options} {sites file|Tumblr blog URL}\n"
-    print "Options are..."
-    print "\t-t, --download-dir\tSpecifies the directory where the images will be downloaded to."
-    print "\t--site-file\t\tFile that contains a sequence of Tumblr blog ULRs. Every line contains one URL."
-    print "\t--site\t\t\tDownload images from the given Tumblr blog URL."
-    print "\t--today\t\t\tDownload only images for today."
-    print "\t--start-item\t\t\tTODO"
-    print "\t--max-items\t\t\tTODO"
-    print "\t--start-date\t\t\tTODO"
-    print "\t--duration\t\t\tTODO"
-    print "\t--print-sites\t\tPrints all Tumblr blog URLs from the default blog file to the standard output."
-    print "\t-h, --help\t\tDisplay this help message."
-
-
 def main():
   global config
 
