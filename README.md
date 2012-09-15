@@ -7,7 +7,7 @@ yatir is a yet another Tumblr image ripper. It downloads images from a given Tum
 
 For example, if you want to download images from ACCIDENTAL CHINESE HIPSTERS execute the following command:
 
-  $ yatir accidentalchinesehipsters
+    $ ./yatir accidentalchinesehipsters
 
 ## Installing yatir
 
@@ -15,7 +15,7 @@ yatir is written in Python and thus requires Python to be installed.
 
 ### 1. Clone yatir from Github
 
-  git clone https://github.com/hypebeast/yatir.git yatir
+    $ git clone https://github.com/hypebeast/yatir.git yatir
 
 ### 2. Start yatir
   $ ./yatir
@@ -39,10 +39,10 @@ thingsthatexciteme
 
 ### 3. Start downloading images
 
-  $ ./yatir
+    $ ./yatir
 
 ### Command line arguments
 
 To see all available command line arguments, execute:
 
-  $ ./yatir -h
+    $ ./yatir -h
