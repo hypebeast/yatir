@@ -18,7 +18,7 @@ yatir is written in Python and thus requires Python to be installed.
     $ git clone https://github.com/hypebeast/yatir.git yatir
 
 ### 2. Start yatir
-  $ ./yatir
+    $ ./yatir
 
 ## Usage
 
