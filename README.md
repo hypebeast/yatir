@@ -7,7 +7,7 @@ yatir is a yet another Tumblr image ripper. It downloads images from a given Tum
 
 For example, if you want to download images from ACCIDENTAL CHINESE HIPSTERS execute the following command:
 
-  $ yatir accidentalchinesehipsters.tumblr.com
+  $ yatir accidentalchinesehipsters
 
 ## Installing yatir
 
