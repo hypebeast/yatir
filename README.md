@@ -31,10 +31,10 @@ To configure yatir edit the config.ini file. This file located in '~/.yatir'.
 By default yatir reads the Tumblr blogs from blogs.txt located in the same directory as yatir is executed. Each line contains one blog name. For example:
 
 ```text
-monk3y.tumblr.com
-playwithfire.tumblr.com
-jessica-fletcher.tumblr.com
-thingsthatexciteme.tumblr.com
+monk3y
+playwithfire
+jessica-fletcher
+thingsthatexciteme
 ```
 
 ### 3. Start downloading images

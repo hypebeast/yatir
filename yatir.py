@@ -214,7 +214,7 @@ def main():
   global config
 
   parser = argparse.ArgumentParser()
-  parser.add_argument("blog", nargs='?', help="Tumblr blog to download images from")
+  parser.add_argument("blog", nargs='?', help="Tumblr blog name to download images from (only the blog name, without .tumblr.com)")
   parser.add_argument("--max-images", type=int, help="The maxmium number of images that should be downloaded from one blog")
   parser.add_argument("--blog-file", help="Read blogs from this file instead from the file specified in the config file")
   parser.add_argument("-d", "--download-dir", help="Target directory for the downloaded images")
